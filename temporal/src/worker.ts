@@ -4,7 +4,7 @@ import * as activities from './activities';
 run().catch((err) => console.log(err));
 
 async function run() {
-  const connection = await NativeConnection.connect({ address: 'temporal-l6zx:7233' });
+  const connection = await NativeConnection.connect({ address: 'temporal-4pke:7233' });
 
   const worker = await Worker.create({
     connection,
